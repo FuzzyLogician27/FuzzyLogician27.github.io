@@ -1,0 +1,53 @@
+li {
+    color: darkgreen;
+    font-size: 1.5rem;
+}
+
+p, h3{
+    font-size: 1.2rem;
+    font-family: 'Garamond', serif;
+}
+
+/* id selector */
+#search {
+    background-color: darkgoldenrod;
+    color: darkviolet;
+    width: 50vw;
+}
+
+/* class selectors */
+
+.btn {
+
+}
+
+/* wildcard selectors */
+
+* {
+    /* margin: 0px;
+    padding: 0px; */
+}
+
+.heading {    
+    text-align: center;
+}
+
+body {
+    background-color: lightblue;
+    color: rgb(84, 0, 139);
+    font-family: 'Garamond', serif;
+    font-size: 1rem;
+}
+
+.container {
+    width: 80vw;
+    margin: auto;
+
+}
+
+.centredImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
