@@ -37,6 +37,10 @@ body {
     color: rgb(84, 0, 139);
     font-family: 'Garamond', serif;
     font-size: 1rem;
+    background-image:url("https://st.depositphotos.com/2143989/2630/v/600/depositphotos_26301339-stock-illustration-abstract-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .container {
@@ -50,4 +54,16 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 200px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30vw;
+}
+
+.flex-container li {
+    list-style: none;
 }
