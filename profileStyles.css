@@ -69,8 +69,8 @@ canvas {
   }
   
   nav a:hover {
-    color: #333;
-    background-color: #bfc0c0;
+    color: #dfded4;
+    background-color: #013314;
     border-radius: 10px;
     padding: 5px 10px;
   }
@@ -156,12 +156,15 @@ canvas {
     width: 100%;
   }
   
-  /* projects.html CSS */
   
-  table {
+   .table-striped {
     width: 100%;
     border-collapse: collapse;
     text-align: center;
+    background-color: rgb(1, 85, 33, 0.5);
+    --bs-table-striped-bg: rgba(0, 0, 0, 0.3);
+    color:#40d6fc;
+    --bs-table-striped-color: #40d6fc;
   }
   
   th,
@@ -172,7 +175,7 @@ canvas {
   
   thead th {
     background-color: #2d3142;
-    color: #fff;
+    color: #40d6fc;;
   }
   
   tbody td:nth-child(3) {
